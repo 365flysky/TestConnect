@@ -18,5 +18,6 @@ public class MainActivity extends AppCompatActivity {
         Typeface tf = Typeface.createFromAsset(manager,fontPath);
         text.setTypeface(tf);
         //提交测试
+        System.out.print("false");
     }
 }

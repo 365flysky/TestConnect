@@ -17,5 +17,6 @@ public class MainActivity extends AppCompatActivity {
         AssetManager manager = getAssets();
         Typeface tf = Typeface.createFromAsset(manager,fontPath);
         text.setTypeface(tf);
+        //提交测试
     }
 }
